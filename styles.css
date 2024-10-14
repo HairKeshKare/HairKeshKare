@@ -12,19 +12,29 @@ header {
     text-align: center;
 }
 
+nav {
+    margin: 10px 0;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block; /* Change to inline-block */
+    margin: 0 10px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 5px 10px; /* Add padding for better clickability */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Highlight effect on hover */
 }
 
 h2 {
@@ -56,8 +66,11 @@ footer {
         display: block; /* Stack items vertically */
         margin: 5px 0;
     }
+    nav ul {
+        text-align: center; /* Center navigation on mobile */
+    }
     h2 {
-        font-size: 1.5em; /* Responsive heading size */
+        font-size: 1.8em; /* Responsive heading size */
     }
     main {
         padding: 10px; /* Adjust padding for smaller screens */
