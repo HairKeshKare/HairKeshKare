@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #007BFF, #00B74A); /* Blue to Green Gradient */
+    background: linear-gradient(to right, #FFA500, #00B74A, #007BFF); /* Orange to Green to Blue Gradient */
 }
 
 header {
@@ -67,6 +67,12 @@ h2 {
 }
 
 footer {
-    tex
-
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7); /* Dark footer with transparency */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
