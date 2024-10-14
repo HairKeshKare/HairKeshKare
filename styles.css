@@ -42,6 +42,10 @@ nav ul li a {
     border-radius: 5px;
 }
 
+h2 {
+    color: #333;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -51,3 +55,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
