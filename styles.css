@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #007BFF, #00B74A); /* Blue to Green Gradient */
 }
 
 header {
-    background: #333;
+    background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -28,7 +28,7 @@ nav ul li a {
 }
 
 .hero {
-    background: #007BFF;
+    background: rgba(0, 123, 255, 0.9); /* Semi-transparent blue */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -43,16 +43,30 @@ nav ul li a {
 }
 
 h2 {
-    color: #333;
+    color: #fff;
+}
+
+.images {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-item {
+    max-width: 300px;
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    tex
+
 
