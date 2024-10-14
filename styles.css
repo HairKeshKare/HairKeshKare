@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #FFA500, #00B74A, #007BFF); /* Orange to Green to Blue Gradient */
+    background: linear-gradient(to right, #FFA500, #00B74A, #007BFF); /* Gradient */
 }
 
 header {
-    background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -27,52 +27,39 @@ nav ul li a {
     text-decoration: none;
 }
 
-.hero {
-    background: rgba(0, 123, 255, 0.9); /* Semi-transparent blue */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.btn {
-    background: #fff;
-    color: #007BFF;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 h2 {
     color: #fff;
 }
 
-.images {
-    text-align: center;
-    margin: 20px 0;
+main {
+    padding: 20px;
+    color: #fff;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.image-item {
-    max-width: 300px;
-}
-
-.image-item img {
-    width: 100%;
-    border-radius: 10px;
+ul {
+    margin-left: 20px;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: rgba(0, 0, 0, 0.7); /* Dark footer with transparency */
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
+/* Mobile Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack items vertically */
+        margin: 5px 0;
+    }
+    h2 {
+        font-size: 1.5em; /* Responsive heading size */
+    }
+    main {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
